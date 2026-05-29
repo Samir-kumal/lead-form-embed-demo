@@ -31,7 +31,7 @@ export default function LandingPage() {
       </nav>
 
       {/* ── Hero ────────────────────────────────────────────────────── */}
-      <section className="max-w-6xl mx-auto px-6 pt-16 pb-12 grid lg:grid-cols-2 gap-12 items-start">
+      <section className="max-w-7xl mx-auto px-6 pt-16 pb-12 grid lg:grid-cols-[1fr_520px] gap-12 items-start">
 
         {/* Left: copy */}
         <div className="space-y-6">
@@ -85,7 +85,7 @@ export default function LandingPage() {
               <p className="text-white font-semibold text-sm">Get Your Free Quote</p>
               <p className="text-blue-100 text-xs mt-0.5">No commitment • Takes 2 min</p>
             </div>
-            <LeadForm className="p-2" />
+            <LeadForm className="p-4" />
           </div>
         </div>
       </section>
